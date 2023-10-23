@@ -1,3 +1,3 @@
 # html-foundations
-The Odin Project - Foundation course.
+The Odin Project - Foundation course
 4- HTML Foundations
