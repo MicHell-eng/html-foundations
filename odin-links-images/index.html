@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title> Links and Images</title>
@@ -7,17 +7,23 @@
 
   <body>
     <h1>Homepage</h1>
-    <!-- Absolute reference => protocol://domain/path -->
+    <!-- Reference -->
+    <!-- a = "anchor" -->
+      <!-- Absolute reference => protocol://domain/path -->
     <p><a href="https://www.theodinproject.com/about" target="_blank" 
       rel="noopener noreferrer">Click me</a></p>
 
-    <!-- Relative reference => ./path -->
+      <!-- Relative reference => ./path -->
     <p><a href="./pages/about.html">About</a></p>
 
     <!-- Image -->
-    <p><img src="https://www.theodinproject.com/mstile-310x310.png"></p>
+      <!-- Absolute -->
+    <p><img src="https://www.theodinproject.com/mstile-310x310.png" 
+      alt="The Odin Project Logo" height="310" width="310"></p>
 
-    <p><img src="./images/dog.jpg" alt=""></p>
+      <!-- Relative -->
+    <p><img src="./images/dog.jpg" alt="Dog named Charles"
+      height="310" width="310"></p>
 
   </body>
 </html>
